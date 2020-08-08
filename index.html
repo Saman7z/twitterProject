@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" />
+    <!-- <link rel="stylesheet" href="./fontawesome-free-5.13.0-web/css/all.min.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Welcome | Home | Page</title>
+  </head>
+  <body class="body" style="background-color: rgb(255, 255, 255);">
+    <div class="container">
+      <div class="left-section-container">
+        <div class="navigation-container">
+          <div class="nav-item twit-icon"><i class="fa fa-twitter"></i><span class="close-menu-btn">&times;</span></div>
+          <div class="nav-item current-nav-item">
+            <span class="item-pack">
+              
+              <i class="fa fa-home"></i>
+              <span class="nav-item-title">Home</span>
+            </span>
+          </div>
+          <div class="nav-item">
+            <span class="item-pack">
+              <i class="fa fa-hashtag"></i
+              ><span class="nav-item-title">Explore</span>
+            </span>
+          </div>
+          <div class="nav-item">
+            <span class="item-pack">
+              <i class="fa fa-bell"></i
+              ><span class="nav-item-title">Notifications</span>
+            </span>
+          </div>
+          <div class="nav-item">
+            <span class="item-pack">
+              <i class="fa fa-envelope"></i
+              ><span class="nav-item-title">Messages</span>
+            </span>
+          </div>
+          <div class="nav-item">
+            <span class="item-pack">
+              <i class="fa fa-bookmark"></i
+              ><span class="nav-item-title">Bookmark</span>
+            </span>
+          </div>
+
+          <div class="nav-item">
+            <span class="item-pack">
+              <i class="fa fa-user"></i
+              ><span class="nav-item-title">Profile</span>
+            </span>
+          </div>
+          <div class="tweet-btn">
+            <button>Tweet</button>
+            <div class="tweet-btn-small"><i class="fa fa-plus-square"></i></div>
+          </div>
+          <!--! theme experiment -->
+          <div class="theme-btn-container">
+            <button class="theme-btn" id="theme-btn"><i class="fa fa-moon-o" ></i></button>
+          </div>
+          <!--! theme experiment -->
+        </div>
+        <div class="nav-side-profile-container">
+          <div class="nav-profile-main">
+            <img
+              src="./assets/profile.jpg"
+              alt="profile-img"
+              class="nav-profile-img"
+            />
+            <div class="user-name-section">
+              <div class="profile-name">Sami</div>
+              <div class="user-name">@__saman____</div>
+            </div>
+          </div>
+          <div class="down-icon"><i class="fa fa-angle-down"></i></div>
+        </div>
+      </div>
+      <!--! Main start -->
+      <div class="main-section-container">
+        <div class="main-section">
+          <div class="new-tweet-section">
+            <div class="top-bar">
+              <h2>Home</h2>
+              <i class="fa fa-star"></i>
+            </div>
+            <div class="input-form-tweet-container">
+              <div class="input-box-section">
+                <img
+                  src="./assets/profile.jpg"
+                  alt="profile-pic"
+                  class="input-box-img"
+                />
+                <input
+                  type="text"
+                  id="write-new-tweet"
+                  placeholder="What’s happening?"
+                />
+              </div>
+              <div class="buttons-section">
+                <div class="left-btns">
+                  <i class="fa fa-thumbs-up"></i>
+                  <i class="fa fa-id-card"></i>
+                  <i class="fa fa-tags"></i>
+                  <i class="fa fa-bar-chart"></i>
+                </div>
+                <div class="right-btn">
+                  <button class="tweet-submit-btn">Tweet</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tweets-section">
+          <div class="tweets-container">
+            <!-- <div class="tweet-item">
+              <div class="tweet-info">
+                <div class="img-and-username">
+                  <div class="tweet-info-img-container">
+                    <img
+                      src="./assets/profile.jpg"
+                      alt="user-img"
+                      id="tweet-info-img"
+                    />
+                  </div>
+                  <div class="tweet-info-username">
+                    <span class="tweet-info-username-title">Saman</span>
+                    <span class="tweet-info-username-account"
+                      >@__saman____</span
+                    >
+                  </div>
+                </div>
+                <div class="tweet-down-icon">
+                  <i class="fa fa-angle-down"></i>
+                </div>
+              </div>
+              <div class="tweet-text">
+                <p class="tweet-text-p">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Vitae id consectetur molestiae qui ex expedita aspernatur
+                  soluta quod cum, assumenda ratione ad, officiis, adipisci
+                  temporibus at quia minima a ea mollitia corporis. Est sapiente
+                  perferendis accusamus tenetur officia quasi alias optio nemo
+                  itaque voluptates, quaerat nihil, fugiat corrupti, voluptatem
+                  provident! Temporibus molestiae culpa debitis? Expedita
+                  quibusdam mollitia neque quisquam dignissimos magnam sed
+                  consequuntur facere fuga necessitatibus possimus iste eveniet
+                  similique distinctio odio quo porro quod ratione perspiciatis,
+                  voluptatum officia. Nobis atque ullam facere similique autem
+                  cupiditate doloribus voluptatum nam fugiat eveniet quo
+                  eligendi optio molestiae, harum minus ab aut quam,
+                  voluptatibus ea reprehenderit reiciendis? Quibusdam corporis
+                  sit ratione magni temporibus rerum sint corrupti molestiae
+                  distinctio ipsum omnis, adipisci reiciendis nulla.
+                </p>
+              </div>
+              <div class="tweet-icon-container">
+                <div class="tweet-icons">
+                  <i class="fa fa-comment"></i>
+                  <i class="fa fa-retweet"></i>
+                  <i class="fa fa-heart"></i>
+                  <i class="fa fa-share-alt"></i>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <div class="loader">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+      <!--! Main end -->
+      <div class="right-section-container">
+        <div class="right-side-search-container">
+          <form>
+            <div class="search-box-container">
+              <input
+                type="text"
+                placeholder="Search Not Twitter"
+                id="search-box"
+              />
+              <div class="search-icon"><i class="fa fa-search"></i></div>
+            </div>
+          </form>
+        </div>
+        <div class="what-happening-container">
+          <div class="what-happening-title">
+            What’s happening
+          </div>
+          <div class="what-happening-dec-container">
+            <div class="what-happening-dec-text">
+              <div class="what-happening-category">news . last night</div>
+              <div class="what-happening-text">
+                Prepare yourselves, brave explorers! Set-off for the lush planet
+                PNF-404 when #Pikmin 3 Deluxe lands on 10/30! This version
+                features multiple difficulty modes, new side-story missions
+                featuring Olimar & Louie, and all the DLC from the original
+                release.
+              </div>
+            </div>
+            <div class="what-happening-dec-img">
+              <img src="./assets/favicon.ico" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="trending-section-container">
+          <div class="trending-section">
+            <div class="trend-location">Trending in Canada</div>
+            <div class="trend-text">Microsoft in talks to buy TikTok</div>
+            <div class="trend-amount">12.1K Tweets</div>
+          </div>
+          <div class="dowward-icon"><i class="fa fa-angle-down"></i></div>
+        </div>
+        <div class="trending-section-container">
+          <div class="trending-section">
+            <div class="trend-location">Trending in Iran</div>
+            <div class="trend-text">My word, Trump has become corpulent</div>
+            <div class="trend-amount">30.6K Tweets</div>
+          </div>
+          <div class="dowward-icon"><i class="fa fa-angle-down"></i></div>
+        </div>
+        <div class="show-more-right-side">
+          Show more
+        </div>
+        <div class="who-to-follow-container">
+          <div class="who-to-follow-title">
+            Who to follow
+          </div>
+          <div class="profile-tofollow-container">
+            <div class="profile-main">
+              <img
+                src="./assets/profile.jpg"
+                alt="profile-img"
+                class="profile-tofollow-img"
+              />
+              <div class="user-name-section">
+                <div class="profile-name">Sami</div>
+                <div class="user-name">@__saman____</div>
+              </div>
+            </div>
+            <div class="follow-btn"><button>follow</button></div>
+          </div>
+          <div class="profile-tofollow-container">
+            <div class="profile-main">
+              <img
+                src="./assets/profile.jpg"
+                alt="profile-img"
+                class="profile-tofollow-img"
+              />
+              <div class="user-name-section">
+                <div class="profile-name">Sami</div>
+                <div class="user-name">@__saman____</div>
+              </div>
+            </div>
+            <div class="follow-btn"><button>follow</button></div>
+          </div>
+        </div>
+        <div class="footer-container">
+          <div class="footer">
+            <p class="footer-item">Terms</p>
+            <p class="footer-item">Privacy policy</p>
+            <p class="footer-item">Cookies</p>
+            <p class="footer-item">Ads info</p>
+            <p class="footer-item">More<i class="fa fa-angle-down"></i></p>
+          </div>
+          <div class="footer-copyright">
+            <p class="footer-item">&copy; 2020 Saman Ghanbari.</p>
+          </div>
+        </div>
+      </div>
+      <div class="phone-home-section-container">
+        <div class="phone-home-section">
+          <div class="phone-home-img-user">
+            <img src="./assets/profile.jpg" alt="profile-pic" class="phone-home-img">
+            <span class="phone-home-title">Home</span>
+          </div>
+          <i class="fa fa-star"></i>
+        </div>
+      </div>
+      <div class="phone-tweet-icon-container">
+        <div class="phone-tweet-icon">
+          <div class="phone-tweet-icon-small">
+            <i class="fa fa-plus-square"></i>
+          </div>
+        </div>
+      </div>
+      <div class="phone-navigation-container">
+        <div class="phone-navigation-icons">
+          <div><i class="fa fa-home"></i></div>
+          <div><i class="fa fa-hashtag"></i></div>
+          <div><i class="fa fa-bell"></i></div>
+          <div><i class="fa fa-envelope"></i></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
